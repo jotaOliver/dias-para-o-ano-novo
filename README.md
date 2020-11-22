@@ -1,3 +1,4 @@
+![GitHub](https://img.shields.io/github/license/jotaOliver/dias-para-o-ano-novo?style=flat-square)
 # Contador de dias para o ano novo
 Contador de dias para o ano novo
 
