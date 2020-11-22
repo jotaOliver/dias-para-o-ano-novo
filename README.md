@@ -1,7 +1,7 @@
 # Contador de dias para o ano novo
-Contador de dias para o ano novo js
+Contador de dias para o ano novo
 
-> Projeto para praticar JavaScript 
+> Projeto para praticar JavaScript e Css
 > 
 > Veja como ficou (https://dias-para-o-ano-novo-6t2s3kond.vercel.app/)
 
