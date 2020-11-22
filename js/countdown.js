@@ -1,6 +1,10 @@
 export default class Countdown{
-    constructor(dataFutura){
+    constructor(dataFutura, dias, horas, minutos,segundos){
         this.dataFutura = dataFutura;
+        this.dias = document.querySelector(dias);
+        this.horas = document.querySelector(horas);
+        this.minutos = document.querySelector(minutos);
+        this.segundos = document.querySelector(segundos);
     }
 
     get _dataAtual(){
@@ -37,6 +41,14 @@ export default class Countdown{
             minutes:minutes,
             seconds:seconds,
         }
+    }
+    totalContador(){
+       return(
+           this.dias.innerText = this.total.days,
+           this.horas.innerText = this.total.hours,
+           this.minutos.innerText = this.total.minutes,
+           this.segundos.innerText = this.total.seconds
+       );
     }
 }
 
